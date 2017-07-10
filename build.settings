@@ -1,0 +1,22 @@
+-- Supported values for orientation:
+-- portrait, portraitUpsideDown, landscapeLeft, landscapeRight
+
+settings = {
+	
+	orientation = {
+		default = "portrait",
+		supported = { "portrait" }
+	},
+	
+	iphone = {
+		plist = {
+			UIStatusBarHidden = false,
+			UIPrerenderedIcon = true,
+			UIAppFonts = {
+				"SketchLogs.ttf",
+			},
+			
+			--UIApplicationExitsOnSuspend = true,
+		}
+	},
+}
